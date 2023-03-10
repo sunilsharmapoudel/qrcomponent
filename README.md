@@ -5,22 +5,27 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
+
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+## Overview
+### Screenshots
+https://github.com/sunilsharmapoudel/qrcomponent/blob/9b2bd92471345ca374354bc8248b1442a7014c94/design/desktop-design.jpg
+
+https://github.com/sunilsharmapoudel/qrcomponent/blob/master/design/mobile-design.jpg
 
 ### Links
 
 - Live Site URL: [https://sunilsharmapoudel.github.io/qrcomponent/](https://sunilsharmapoudel.github.io/qrcomponent/)
 
 ## My process
-
+Structured the html and then finished the CSS part.
 
 ### Built with
 
@@ -106,5 +111,5 @@ body {
 ## Author
 
 - Website - [Sunil Sharma](https://github.com/sunilsharmapoudel)
-- Frontend Mentor - [@mesunilsharmapoudel](https://www.facebook.com/mesunilsharmapoudel)
+- Facebook - [@mesunilsharmapoudel](https://www.facebook.com/mesunilsharmapoudel)
 - Twitter - [@techsunilsharma](https://www.twitter.com/techsunilsharma)
