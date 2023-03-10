@@ -10,18 +10,20 @@
 
   <style>
     body {
-      background-color: hsl(0, 0%, 100%);
-    }
-    .container {
       background-color:hsl(212, 45%, 89%);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      margin: 0;
+       }
+
+    .container {
+      display: block;
       width: 375px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 50px;
       padding-bottom: 50px;
       margin-top: 50px;
-      box-shadow: 5px 20px 40px  lightblue;   
     }
+    
     .qr-container {
       background-color: hsl(0, 0%, 100%);
       width: 250px;
@@ -31,6 +33,7 @@
       margin-right: auto;
       position: relative;
       padding: 10px;
+      box-shadow: 5px 20px 40px  lightblue;
     }
     .qr-img{
       display: block;
@@ -64,14 +67,23 @@
       }
     }
 
+    .sronly {
+      position: absolute;
+      left: -10000px;
+      overflow: hidden;
+      height: 1px;
+      width: 1px;
+    }
+
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+<main class="container">
   <div class="qr-container">
+    <h1 class="sronly">QR Code CSS Challenge</h1>
     <div class="qr-holder">
       <img class="qr-img" src="images/image-qr-code.png" alt="QR">
     </div>
@@ -80,6 +92,6 @@
       <p class="light-para">Scan the QR code to visit Frontend Mentor and take you rcoding skills to the next level.</p>
     </div>
   </div>
-</div>
+</main>
 </body>
 </html>
