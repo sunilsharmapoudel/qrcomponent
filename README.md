@@ -16,9 +16,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Acknowledgments](#acknowledgments)
 ## Overview
 ### Screenshots
-(./design/desktop-design.jpg)
 
-(./design/mobile-design.jpg)
+Desktop: https://github.com/sunilsharmapoudel/qrcomponent/blob/master/design/desktop-design.jpg
+
+![Desktop](/design/desktop-design.jpg)
+
+Mobile: https://github.com/sunilsharmapoudel/qrcomponent/blob/master/design/mobile-design.jpg
+
+![Mobile](/design/mobile-design.jpg)
 
 ### Links
 
